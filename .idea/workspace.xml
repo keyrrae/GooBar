@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4206be-426f-4fd2-a5de-b23f92a26107" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AverageSizeN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ComeLeave.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/EvaluateDivision.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FindNumberIn2DMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FormNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MatrixTopDownPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/OneCharEachArray.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ValidParenthesesParis.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/RemoveZeroSubtree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TreeNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="GooBar.iws" />
@@ -33,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuoteSplit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/QuoteSplit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindNumberIn2DMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FindNumberIn2DMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -125,11 +108,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AverageSizeN.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AverageSizeN.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AverageSizeN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="-3">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveZeroSubtree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RemoveZeroSubtree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -164,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/OneCharEachArray.java" />
         <option value="$PROJECT_DIR$/src/MatrixTopDownPath.java" />
         <option value="$PROJECT_DIR$/src/AverageSizeN.java" />
+        <option value="$PROJECT_DIR$/src/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/RemoveZeroSubtree.java" />
       </list>
     </option>
   </component>
@@ -174,10 +183,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-915" />
-    <option name="y" value="774" />
-    <option name="width" value="1717" />
-    <option name="height" value="800" />
+    <option name="y" value="32" />
+    <option name="width" value="1920" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -248,22 +256,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="();&#9;null&#9;null" />
   </component>
-  <component name="RunManager" selected="Application.AverageSizeN">
-    <configuration default="false" name="ComeLeave" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="ComeLeave" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="GooBar" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveZeroSubtree">
     <configuration default="false" name="FormNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="FormNumber" />
@@ -312,6 +305,21 @@
     <configuration default="false" name="AverageSizeN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="AverageSizeN" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="GooBar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RemoveZeroSubtree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="RemoveZeroSubtree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -752,19 +760,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ComeLeave" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FormNumber" />
-      <item index="2" class="java.lang.String" itemvalue="Application.OneCharEachArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MatrixTopDownPath" />
-      <item index="4" class="java.lang.String" itemvalue="Application.AverageSizeN" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FormNumber" />
+      <item index="1" class="java.lang.String" itemvalue="Application.OneCharEachArray" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MatrixTopDownPath" />
+      <item index="3" class="java.lang.String" itemvalue="Application.AverageSizeN" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RemoveZeroSubtree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.AverageSizeN" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MatrixTopDownPath" />
-        <item index="2" class="java.lang.String" itemvalue="Application.OneCharEachArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FormNumber" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ComeLeave" />
+        <item index="0" class="java.lang.String" itemvalue="Application.RemoveZeroSubtree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AverageSizeN" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MatrixTopDownPath" />
+        <item index="3" class="java.lang.String" itemvalue="Application.OneCharEachArray" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FormNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -781,16 +789,16 @@
       <workItem from="1478032662283" duration="27000" />
       <workItem from="1478032708048" duration="129000" />
       <workItem from="1478142871709" duration="2423000" />
-      <workItem from="1478719041067" duration="13539000" />
+      <workItem from="1478719041067" duration="15656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16118000" />
+    <option name="totallyTimeSpent" value="18235000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-915" y="774" width="1717" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="32" width="1920" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -804,12 +812,12 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28007182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52592593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -875,8 +883,14 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RemoveZeroSubtree.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -987,8 +1001,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AverageSizeN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="-3">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RemoveZeroSubtree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
