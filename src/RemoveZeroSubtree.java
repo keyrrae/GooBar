@@ -18,7 +18,6 @@ public class RemoveZeroSubtree {
             root.right = null;
         }
         return sum;
-
     }
 
     public static void main(String[] args){
@@ -26,6 +25,5 @@ public class RemoveZeroSubtree {
         removeZeroSubtree(src);
         String str = TreeNode.serialize(src);
         System.out.println("NOP");
-
     }
 }
