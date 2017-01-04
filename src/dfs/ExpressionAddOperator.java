@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class ExpressionAddOperator {
     public List<String> addOperators(String num, int target) {
-        List<String> rst = new ArrayList<String>();
+        List<String> rst = new ArrayList<>();
         if(num == null || num.length() == 0) return rst;
         helper(rst, "", num, target, 0, 0, 0);
         return rst;

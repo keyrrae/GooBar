@@ -45,7 +45,8 @@ public class SequenceReconstruction {
             int size = queue.size();
             if(size > 1) return false;
             int curr = queue.poll();
-            if(index == org.length || curr != org[index++]) return false;
+            if(index == org.length || curr != org[index]) return false;
+            index++;
             for(int next: map.get(curr)) {
                 indegree.put(next, indegree.get(next) - 1);
                 if(indegree.get(next) == 0) queue.offer(next);

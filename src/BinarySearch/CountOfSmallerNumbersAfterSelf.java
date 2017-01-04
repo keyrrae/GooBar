@@ -24,7 +24,7 @@ Return the array [2, 1, 1, 0].
 public class CountOfSmallerNumbersAfterSelf {
     public List<Integer> countSmaller(int[] nums) {
         Integer[] ans = new Integer[nums.length];
-        List<Integer> sorted = new ArrayList<Integer>();
+        List<Integer> sorted = new ArrayList<>();
         for (int i = nums.length - 1; i >= 0; i--) {
             int index = findIndex(sorted, nums[i]);
             ans[i] = index;

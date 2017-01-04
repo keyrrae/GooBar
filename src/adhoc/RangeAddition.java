@@ -39,7 +39,7 @@ After applying operation [0, 2, -2]:
 [-2, 0, 3, 5, 3 ]
  */
 public class RangeAddition {
-    public int[] getModifiedArray(int length, int[][] updates) {
+    public static int[] getModifiedArray(int length, int[][] updates) {
         int[] res = new int[length];
         for(int[] update : updates) {
             int value = update[2];
@@ -60,5 +60,9 @@ public class RangeAddition {
         }
 
         return res;
+    }
+    public static void main(String[] args){
+        int[][] updates = {{1,2,3},{2,4,3},{0,2,01}};
+        getModifiedArray(5, updates);
     }
 }

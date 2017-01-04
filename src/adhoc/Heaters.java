@@ -9,7 +9,8 @@ public class Heaters {
     /*
     The idea is to leverage decent Arrays.binarySearch() function provided by Java.
 
-    For each house, find its position between those heaters (thus we need the heaters array to be sorted).
+    For each house, find its position between those heaters
+    (thus we need the heaters array to be sorted).
 
     Calculate the distances between this house and left heater and right heater,
     get a MIN value of those two values.
@@ -18,7 +19,8 @@ public class Heaters {
 
     Get MAX value among distances in step 2. It's the answer.
 
-    Time complexity: max(O(nlogn), O(mlogn)) - m is the length of houses, n is the length of heaters.
+    Time complexity: max(O(nlogn), O(mlogn)) - m is the length of houses,
+    n is the length of heaters.
      */
 
 
@@ -38,5 +40,10 @@ public class Heaters {
         }
 
         return result;
+    }
+
+
+    public static void main(String[] args){
+        
     }
 }

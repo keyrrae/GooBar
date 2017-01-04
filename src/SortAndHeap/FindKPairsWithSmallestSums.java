@@ -1,4 +1,4 @@
-package adhoc;
+package SortAndHeap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,10 +39,12 @@ All possible pairs are returned from the sequence:
  */
 public class FindKPairsWithSmallestSums {
     public List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-        PriorityQueue<Tuple> pq = new PriorityQueue<Tuple>((a, b) -> (a.val - b.val));
+        PriorityQueue<Tuple> pq = new PriorityQueue<>((a, b) -> (a.val - b.val));
         int m = nums1.length, n = nums2.length;
         List<int[]> res = new ArrayList<int[]>();
-        if (nums1 == null || nums1.length == 0 || nums2 == null || nums2.length == 0 || k <= 0) return res;
+        if (nums1 == null || nums1.length == 0 ||
+                nums2 == null || nums2.length == 0 || k <= 0)
+            return res;
         for (int j = 0; j <= n - 1; j++) pq.offer(new Tuple(0, j, nums1[0] + nums2[j]));
         for (int i = 0; i < Math.min(k, m * n); i++) {
             Tuple t = pq.poll();

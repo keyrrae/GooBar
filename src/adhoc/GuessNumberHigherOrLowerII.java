@@ -29,7 +29,29 @@ Given a particular n ≥ 1, find out how much money you need to have to guarante
  */
 
 public class GuessNumberHigherOrLowerII {
+    /*
+    For each number x in range[i~j]
+we do: result_when_pick_x = x + max{DP([i~x-1]), DP([x+1, j])}
+--> // the max means whenever you choose a number, the feedback is always bad and therefore leads you to a worse branch.
+then we get DP([i~j]) = min{xi, ... ,xj}
+--> // this min makes sure that you are minimizing your cost.
+     */
     public int getMoneyAmount(int n) {
+        int[][] table = new int[n+1][n+1];
+        for(int j=2; j<=n; j++){
+            for(int i=j-1; i>0; i--){
+                int globalMin = Integer.MAX_VALUE;
+                for(int k=i+1; k<j; k++){
+                    int localMax = k + Math.max(table[i][k-1], table[k+1][j]);
+                    globalMin = Math.min(globalMin, localMax);
+                }
+                table[i][j] = i+1==j?i:globalMin;
+            }
+        }
+        return table[1][n];
+    }
+
+    public int getMoneyAmountii(int n) {
         if(n==1)return 0;
         int[][] dp = new int[n+1][n+1];
 

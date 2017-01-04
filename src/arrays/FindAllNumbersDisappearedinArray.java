@@ -23,7 +23,7 @@ Output:
  */
 public class FindAllNumbersDisappearedinArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
-        List<Integer> ret = new ArrayList<Integer>();
+        List<Integer> ret = new ArrayList<>();
 
         for(int i = 0; i < nums.length; i++) {
             int val = Math.abs(nums[i]) - 1;

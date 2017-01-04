@@ -32,8 +32,6 @@ Explanation:
 7 -> 8 -> 4 -> 2 -> 1
 or
 7 -> 6 -> 3 -> 2 -> 1
-Show Company Tags
-Show Tags
 
  */
 public class IntegerReplacement {
