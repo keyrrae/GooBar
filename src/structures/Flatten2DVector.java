@@ -27,7 +27,7 @@ public class Flatten2DVector implements Iterator<Integer> {
 
         @Override
         public boolean hasNext() {
-            while(listIdx<vec.size()){
+            while(listIdx < vec.size()){
                 if(eleIdx < vec.get(listIdx).size()){
                     return true;
                 }else{

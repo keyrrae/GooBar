@@ -4,7 +4,8 @@ import java.util.*;
  * Created by xuanwang on 11/9/16.
  */
 public class AverageSizeN {
-    // 第二题: 已知k个sorted array of int, return 一个 sorted array. 其中每个array的average size是N. 用Heap(priority queue)做，O(Nklogk)时间O(Nk)空间。
+    // 第二题: 已知k个sorted array of int, return 一个 sorted array.
+    // 其中每个array的average size是N. 用Heap(priority queue)做，O(Nklogk)时间O(Nk)空间。
     public static List<Integer> mergeKSortedLists(List<List<Integer>> arr){
         List<Integer> ans = new ArrayList<>();
         Queue<Tuple> q = new PriorityQueue<>((a, b)-> a.val-b.val);

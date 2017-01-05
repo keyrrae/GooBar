@@ -6,7 +6,7 @@ import java.util.*;
  */
 public class InsertDeleteGetRandomO1 {
     public class RandomizedSet {
-
+        //value -> posInList
         Map<Integer, Integer> map;
         List<Integer> list;
         Random rand;
@@ -37,9 +37,9 @@ public class InsertDeleteGetRandomO1 {
 
             int loc = map.get(val);
             if(loc < list.size()-1){
-                int last = list.get(list.size()-1);
-                list.set(loc, last);
-                map.put(last, loc);
+                int lastVal = list.get(list.size()-1);
+                list.set(loc, lastVal);
+                map.put(lastVal, loc);
             }
             list.remove(list.size()-1);
             map.remove(val);

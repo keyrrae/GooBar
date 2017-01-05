@@ -8,6 +8,7 @@ import java.util.Map;
  */
 public class UniqueWordAbbreviation {
     public class ValidWordAbbr {
+        //Abbreviation, word
         Map<String, String> map;
         public ValidWordAbbr(String[] dictionary) {
             map = new HashMap<>();

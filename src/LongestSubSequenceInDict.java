@@ -7,12 +7,12 @@ import java.util.stream.Collector;
 public class LongestSubSequenceInDict {
     public static int getLongest(String s, String[] arr){
         Arrays.sort(arr, (a, b) -> b.length()- a.length());
-
+        // char, index
         Map<Character, List<Integer>> map = new HashMap<>();
 
         for(int i = 0; i< s.length(); i++){
             char c = s.charAt(i);
-            map.putIfAbsent(c, new ArrayList<Integer>());
+            map.putIfAbsent(c, new ArrayList<>());
             map.get(c).add(i);
         }
         //apdfenipfenile apple

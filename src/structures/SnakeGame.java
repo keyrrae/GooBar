@@ -52,7 +52,8 @@ public class SnakeGame {
 
         //case 1: out of boundary or eating body
         set.remove(body.peekLast()); // new head is legal to be in old tail's position, remove from set temporarily
-        if (rowHead < 0 || rowHead == height || colHead < 0 || colHead == width || set.contains(head)) {
+        if (rowHead < 0 || rowHead == height || colHead < 0 || colHead == width
+                || set.contains(head)) {
             return score = -1;
         }
 
